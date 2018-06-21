@@ -1,0 +1,12 @@
+[INFO  - 2018-05-28T04:50:36.871Z] GhostDriver - Main - running on port 62793
+[INFO  - 2018-05-28T04:50:40.495Z] Session [abc8f1c0-6232-11e8-bd48-1f9a61d4eeae] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-05-28T04:50:40.495Z] Session [abc8f1c0-6232-11e8-bd48-1f9a61d4eeae] - page.customHeaders:  - {}
+[INFO  - 2018-05-28T04:50:40.495Z] Session [abc8f1c0-6232-11e8-bd48-1f9a61d4eeae] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-05-28T04:50:40.496Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: abc8f1c0-6232-11e8-bd48-1f9a61d4eeae
+[ERROR - 2018-05-28T04:50:46.648Z] Session [abc8f1c0-6232-11e8-bd48-1f9a61d4eeae] - page.onError - msg: TCPlayer: ERROR: (CODE:4 MEDIA_ERR_SRC_NOT_SUPPORTED) 无法找到此视频兼容的源或者当前环境无法播放该视频。 [object Object]
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-28T04:50:46.649Z] Session [abc8f1c0-6232-11e8-bd48-1f9a61d4eeae] - page.onError - stack:
+  apply (:0)
+
+  phantomjs://platform/console++.js:263 in error

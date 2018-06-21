@@ -1,0 +1,14 @@
+[INFO  - 2018-05-30T09:14:09.663Z] GhostDriver - Main - running on port 7403
+[INFO  - 2018-05-30T09:14:13.093Z] Session [d1a80760-63e9-11e8-a9ac-619515190c49] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-05-30T09:14:13.094Z] Session [d1a80760-63e9-11e8-a9ac-619515190c49] - page.customHeaders:  - {}
+[INFO  - 2018-05-30T09:14:13.094Z] Session [d1a80760-63e9-11e8-a9ac-619515190c49] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-05-30T09:14:13.094Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: d1a80760-63e9-11e8-a9ac-619515190c49
+[ERROR - 2018-05-30T09:15:05.089Z] Session [d1a80760-63e9-11e8-a9ac-619515190c49] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-30T09:15:05.090Z] Session [d1a80760-63e9-11e8-a9ac-619515190c49] - page.onError - stack:
+  global code (http://www.tianqihoubao.com/aqi/beijing-201704.html:971)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-05-30T09:14:52.802Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-30T09:14:52.803Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session '38caba60-63e9-11e8-91b4-77982a66c3d4', because windowless
