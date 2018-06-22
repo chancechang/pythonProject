@@ -18,27 +18,32 @@ Python、SPSS
 3、	每周最少工作天数的单位都是天/周，我们提取出重要信息，也就是天数，转化成int型。
 
 4、	最短工作月数的单位是个月，我们提取出重要信息，也就是月份数目，转化成int型。
+
 5、	将职位描述提取出关键字，以便于分析需要的技能的重要程度。
+
 6、	还存在地区名字为多个的，如下图所示，我们将地区分开，变成多条数据。
+
 ![image](https://github.com/chancechang/pythonProject/raw/master/shixis/image/2.png)
+
 7、	去掉链接
+
 8、	导入SPSS时，以逗号分隔，因此去掉文件中所有的逗号，以免对导入结果造成影响
 数据清洗后得到的数据如下：
 ![image](https://github.com/chancechang/pythonProject/raw/master/shixis/image/3.png)
 # 六、	数据分析
-最短工作月数分布
+### 最短工作月数分布
 ![image](https://github.com/chancechang/pythonProject/raw/master/shixis/image/4.png)
-不同地区的实习岗位数量
+### 不同地区的实习岗位数量
  ![image](https://github.com/chancechang/pythonProject/raw/master/shixis/image/5.png)
-每周最少工作天数
+### 每周最少工作天数
  ![image](https://github.com/chancechang/pythonProject/raw/master/shixis/image/6.png)
 
 
-日薪最小值
+### 日薪最小值
  ![image](https://github.com/chancechang/pythonProject/raw/master/shixis/image/7.png)
-日薪均值
+### 日薪均值
  ![image](https://github.com/chancechang/pythonProject/raw/master/shixis/image/8.png)
-日薪最大值
+### 日薪最大值
  
 ![image](https://github.com/chancechang/pythonProject/raw/master/shixis/image/9.png)
 
@@ -48,6 +53,6 @@ Python、SPSS
 
 
 
-要求
+### 要求
  ![image](https://github.com/chancechang/pythonProject/raw/master/shixis/image/10.png)
 数据分析岗位大都要求excel、python、sql技能，掌握这三种工具是必要的
