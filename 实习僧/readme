@@ -8,7 +8,7 @@ Python、SPSS
 五、	数据整理
 数据清洗
 原始数据
-![Alt text](https://github.com/chancechang/pythonProject/tree/master/%E5%AE%9E%E4%B9%A0%E5%83%A7/image/1.png)
+![image](https://github.com/chancechang/pythonProject/tree/master/%E5%AE%9E%E4%B9%A0%E5%83%A7/image/1.png)
 1、	搜索数据分析得到的记录中有招聘助理这样的职位，被筛选出来的原因是类型中包含数据分析四个字，这样的记录是不符合要求的，我们要保证职位名称包含数据分析四个字，直接用Excel查找出岗位名称中包含数据和分析的，将不包含的删除掉。
 2、	日薪中含有/天，我们要将薪水转化成int型，取出最大值，最小值，平均值。首先要将字符串拆分
 3、	每周最少工作天数的单位都是天/周，我们提取出重要信息，也就是天数，转化成int型。
